@@ -186,7 +186,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Oh My creation[❤] Opps! Sorry😉 Creater It was a joke (https://telegra.ph/file/a40f0a704bca2410c7ff9.jpg)! Hey Mr.CODELYOKOBOT🙋‍♀, let's get this moving (⚡)✧.",
+                    "Oh My Love[❤] Opps! Sorry😉 Master It was a joke (https://telegra.ph/file/3bd4d5254c7193322ce1a.mp4)! Hey Mr.CODELYOKOBOT🙋‍♀, let's get this moving (⚡)✧.",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
