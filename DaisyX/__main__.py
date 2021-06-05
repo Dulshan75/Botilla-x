@@ -63,9 +63,9 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm Botilla vertion 2.8[💚](https://telegra.ph/file/6893dc93ec70ce438d915.mp4)
+Hello there, My name is Katara[💙](https://telegra.ph/file/03cfdefef91b2629051e5.mp4)
 
-I am an ROBO Tec. Themed Group Managing Bot and I will help in managing your group
+I am an aneme Tec. Themed Group Managing Bot and I will help in managing your group
 
 ✪ Make sure you read *INFO* Section Below ✪ 
 """
@@ -79,7 +79,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add Botilla to your group 💫", url="t.me/MissBotilla_bot?startgroup=true"
+            text="💫 Add Katara to your group 💫", url="t.me/Lady_katara_bot?startgroup=true"
         ),
     ],
     [
@@ -97,7 +97,7 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/fa515eb402478a4243d0c.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/03cfdefef91b2629051e5.mp4)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -371,7 +371,7 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*🥰 Hi again!  The name's {dispatcher.bot.first_name} 🥰 \n\nAs  You I'm a next generational group management bot developed by Infinity_Bots.* "
+            text=f"*🥰 Hi again!  The name's {dispatcher.bot.first_name} 🥰 As  You I'm a next generational group management bot copied from daisy x.* "
             f"\n\n 🔥 Join [Infinity_Bots](https://t.me/hamione_help) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING function like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/feb244f12f8f9a5a09a42.jpg)"
